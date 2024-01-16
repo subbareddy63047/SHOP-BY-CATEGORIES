@@ -1,0 +1,133 @@
+.heading{
+    font-family: DIN Pro;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    margin-left: 11%;
+    width: 14%;
+    border-bottom:3px solid rgb(232, 232, 11);
+    position: relative;
+    top: 13px;
+    right: 0.5%;
+}
+hr{
+    width: 77vw;
+    
+}
+
+.main-container{
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+    width: 80vw;
+    height: 88vh;
+    flex-wrap: wrap;
+}
+.balck-container{
+    align-self: flex-end;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    background-image: linear-gradient(to bottom,transparent,rgb(156, 154, 154),rgb(126, 125, 125),rgb(114, 112, 112));
+    opacity: 0.6;
+    position: relative;
+   
+    /* z-index: -1; */
+    
+    
+}
+
+.first-container{
+    
+    display: flex;
+    width: 30%;
+    height: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    background-position: center;
+    
+    
+}
+.title{
+    font-family: "roboto";
+    position: relative;
+    font-size: 150%;
+    font-weight: normal;
+    color: white;
+    align-self: flex-end;
+    margin-left: 5%;
+    z-index: 1;
+    opacity: 3;
+}
+.first{
+    display: flex;
+    height:68%;
+    width: 30%;
+    background-image: url("./images/bathrobes.png");
+}
+.second{
+    
+    background-image: url("./images/rugs.png");
+   
+}
+
+/* second common */
+.second-common{
+    width: 40%;
+    height: 48%;
+   
+}
+/* third common */
+.third-common{
+    width:55%;
+    height: 48%;
+   
+}
+.third{
+    background-image: url("./images/bathmats.png");
+    
+}
+.fourth{
+    background-image: url("./images/bedsheets.png");
+}
+/* side common container */
+.second-container{
+    display: flex;
+    justify-content: space-around;
+   
+    width:69%;
+    height: 68%;
+    flex-wrap: wrap;
+}
+.fifth{
+    background-image: url("./images/pillows.png");
+}
+.six{
+    width:28%;
+    height: 100%;
+    background-image: url("./images/baskets.png");
+    background-position: center;
+   
+}
+.seven{
+    background-image: url("./images/blankets.png");
+    width:35%;
+    height: 100%;
+}
+.eight{
+    background-image: url("./images/towels.png");
+    width:35%;
+    height: 100%;
+
+}
+
+/* below container */
+.final-container{
+    display: flex;
+    justify-content: space-around;
+    width: 98%;
+    height: 30%;
+    
+}
