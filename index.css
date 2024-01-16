@@ -64,7 +64,8 @@ hr{
 .first{
     display: flex;
     height:68%;
-    width: 30%;
+    margin-left: 1%;
+    width: 26%;
     background-image: url("./images/bathrobes.png");
 }
 .second{
@@ -96,8 +97,8 @@ hr{
 .second-container{
     display: flex;
     justify-content: space-around;
-   
-    width:69%;
+    /* border: 1px solid black; */
+    width:70%;
     height: 68%;
     flex-wrap: wrap;
 }
@@ -130,4 +131,19 @@ hr{
     width: 98%;
     height: 30%;
     
+}
+
+@media screen and (max-width:1300px){
+    .heading{
+        /* font-size: 60%; */
+        width: 40%;
+    }
+    .title{
+        font-size: 80%;
+    }
+}
+@media screen and (min-width:200px) and (max-width:470px){
+    .heading{
+        width: 60%;
+    }
 }
