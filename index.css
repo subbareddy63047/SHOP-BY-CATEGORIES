@@ -29,9 +29,10 @@ hr{
     width: 100%;
     height: 35%;
     display: flex;
-    background-image: linear-gradient(to bottom,transparent,rgb(156, 154, 154),rgb(126, 125, 125),rgb(114, 112, 112));
+    background-image: linear-gradient(to bottom,transparent,rgb(109, 108, 108),rgb(126, 125, 125),rgb(114, 112, 112));
     opacity: 0.6;
     position: relative;
+    /* border: 1px solid blue; */
    
     /* z-index: -1; */
     
@@ -39,7 +40,7 @@ hr{
 }
 
 .first-container{
-    
+    position: relative;
     display: flex;
     width: 30%;
     height: 30%;
@@ -47,13 +48,15 @@ hr{
     background-repeat: no-repeat;
     border-radius: 2%;
     background-position: center;
+   
     
     
 }
 .title{
     font-family: "roboto";
-    position: relative;
-    font-size: 150%;
+    position: absolute;
+    top: 80%;
+    font-size: 100%;
     font-weight: normal;
     color: white;
     align-self: flex-end;
@@ -61,7 +64,10 @@ hr{
     z-index: 1;
     opacity: 3;
 }
-.first{
+.first-title{
+    margin-top:12% ;
+}
+.first{ 
     display: flex;
     height:68%;
     margin-left: 1%;
@@ -97,7 +103,6 @@ hr{
 .second-container{
     display: flex;
     justify-content: space-around;
-    /* border: 1px solid black; */
     width:70%;
     height: 68%;
     flex-wrap: wrap;
@@ -135,7 +140,6 @@ hr{
 
 @media screen and (max-width:1300px){
     .heading{
-        /* font-size: 60%; */
         width: 40%;
     }
     .title{
